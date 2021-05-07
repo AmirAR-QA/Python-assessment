@@ -118,9 +118,6 @@ def three(input):
 	# Step through the logic here in order to solve the problem, you may find help(range) helpful.
 
 
-def four(input):
-    return False
-
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 	# <QUESTION 5>
@@ -138,8 +135,10 @@ def four(input):
 
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
-def five(input):
-	return 1
+def five(x):
+    if x == 0:
+        return 1
+    return x * five(x - 1)
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
