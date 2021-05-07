@@ -117,6 +117,17 @@ def three(input):
 
 	# Step through the logic here in order to solve the problem, you may find help(range) helpful.
 
+def four(input):
+	if ("ei" in input) and ("cei" in input):
+		return True
+	elif ("ei" in input) and ("cei" not in input):
+		return False
+	elif ("ie" in input) and ("cie" in input):
+		return False
+	elif ("ie" in input) and ("cie" not in input):
+		return True
+	return False
+
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
